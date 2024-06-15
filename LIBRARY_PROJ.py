@@ -207,7 +207,7 @@ def search_detail():
         cur.execute(qry3)
         result=cur.fetchall()
         for (Adm_No,Class,Section,Student_Name,Date_of_Issue,Date_of_Return,BName) in cur:
-            pprint('='*167)
+            print('='*167)
             print("Admission No      :",Adm_No)
             print("Class             :",Class)
             print("Section           :",Section)
